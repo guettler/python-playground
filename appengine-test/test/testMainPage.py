@@ -21,6 +21,7 @@ class Test(unittest.TestCase):
 
     def testTwo(self):
         self.assertEqual(4, 2+2, None)
+        self.assertEqual(6, 3*2, None)
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
